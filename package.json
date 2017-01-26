@@ -1,0 +1,23 @@
+{
+  "name": "twig-search-core",
+  "version": "0.0.1",
+  "description": "Core package for twig search tool. Exports common twig search methods.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BugiDev/twig-search-core.git"
+  },
+  "author": "Bogdan Begovic <bogdanbegovic@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BugiDev/twig-search-core/issues"
+  },
+  "homepage": "https://github.com/BugiDev/twig-search-core#readme",
+  "dependencies": {
+    "lodash": "^4.17.4",
+    "xml2js": "^0.4.17"
+  }
+}
