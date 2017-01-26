@@ -9,7 +9,7 @@ const _ = require('lodash');
 module.exports = function(data, componentName) {
 
     let contains = {
-        value: false,
+        value: 0,
         error: false
     };
 
