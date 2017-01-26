@@ -18,7 +18,7 @@ module.exports = function(data, componentName, attributeName) {
             checkIfComponentHasAttribute(parsedXML, componentName, attributeName, contains);
         });
     } catch (e) {
-        contains.error = true;
+        contains.error = e.message;
     }
 
     return contains;

@@ -18,7 +18,7 @@ module.exports = function(data, componentName) {
             checkIfComponentIsUsedMultipleTimes(parsedXML, componentName, contains);
         });
     } catch (e) {
-        contains.error = true;
+        contains.error = e.message;
     }
 
     return contains;

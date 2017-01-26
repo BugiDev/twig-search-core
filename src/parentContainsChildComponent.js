@@ -22,7 +22,7 @@ module.exports = function(data, parentName, childName) {
             checkIfParentComponentContainsChildComponent(parsedXML, parentName, childName, contains);
         });
     } catch (e) {
-        contains.error = true;
+        contains.error = e.message;
     }
 
     return contains;
